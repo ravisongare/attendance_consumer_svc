@@ -25,7 +25,7 @@ public class AttendanceController {
     @GetMapping("hello")
     String hello() {
 
-        return "Hello World";
+        return "Hello World from consumer";
     }
 
     @GetMapping("employee/{empId}")
