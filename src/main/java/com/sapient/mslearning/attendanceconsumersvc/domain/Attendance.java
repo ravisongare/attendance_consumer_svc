@@ -19,4 +19,6 @@ public class Attendance implements Serializable {
     Date date;
     double totalMins;
     String remark;
+
+//    {"empId":1, "attendanceStatus":"abs","Date":null,"totalMins":34,"remark":"remark"}
 }

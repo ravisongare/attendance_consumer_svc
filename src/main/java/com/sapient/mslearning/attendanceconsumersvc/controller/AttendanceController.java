@@ -24,7 +24,6 @@ public class AttendanceController {
 
     @GetMapping("hello")
     String hello() {
-
         return "Hello World from consumer";
     }
 
