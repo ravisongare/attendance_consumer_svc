@@ -1,0 +1,13 @@
+type Attendance {
+    empId: Int!
+    attendanceStatus: String!
+    date: String
+    totalMins: Float
+    remark: String
+}
+
+# The Root Query for the application
+type Query {
+    getEmployeeAttandance(empId: Int): Attendance!
+    getDummyEmployeeAttendance(empId: Int): Attendance!
+}
